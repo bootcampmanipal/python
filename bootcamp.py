@@ -13,7 +13,7 @@ def create_server():
     s.login(username, password)
     return s
 
-#Returns an Email server which we can use to send emails
+#Sends an email to the address with the given body and using the given server
 def send_email(to, body, server):
     username = 'bootcamp_manipal@outlook.com'
         
